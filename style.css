@@ -326,6 +326,11 @@ footer{
         display: block;
         margin: 1rem 0;
     }
+    .project-container{
+        display: grid;
+        grid-template-columns: repeat( 1fr);
+        grid-gap: 2rem;
+    }
 }
 @media (max-width:816px){
     .home{
@@ -348,5 +353,13 @@ footer{
         text-align: center;
      
     }
+    project-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+    
+
+
 
 }
